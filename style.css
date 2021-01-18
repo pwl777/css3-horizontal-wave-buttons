@@ -1,0 +1,121 @@
+/* ------ CSS3 - Horizontal Wave Animation ------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='1449' preserveAspectRatio='none' viewBox='0 0 2560 1449'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1735%26quot%3b)' fill='none'%3e%3crect width='2560' height='1449' x='0' y='0' fill='rgba(217%2c 171%2c 216%2c 1)'%3e%3c/rect%3e%3cpath d='M -486.74433756880086%2c1145.5 C -315.94%2c929.3 25.66%2c135.1 367.25566243119914%2c64.5 C 708.86%2c-6.1 879.66%2c771.7 1221.2556624311992%2c792.5 C 1562.86%2c813.3 1733.66%2c123.5 2075.255662431199%2c168.5 C 2416.86%2c213.5 2832.31%2c935.5 2929.255662431199%2c1017.5 C 3026.2%2c1099.5 2633.85%2c666.3 2560%2c578.5' stroke='rgba(210%2c 121%2c 217%2c 0.8)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -1704.3372891232473%2c1172.5 C -1533.54%2c1055.7 -1191.94%2c564.9 -850.3372891232473%2c588.5 C -508.74%2c612.1 -337.94%2c1386.7 3.662710876752726%2c1290.5 C 345.26%2c1194.3 516.06%2c199.1 857.6627108767527%2c107.5 C 1199.26%2c15.9 1371.2%2c727.5 1711.6627108767527%2c832.5 C 2052.13%2c937.5 2390.33%2c672.5 2560%2c632.5' stroke='rgba(249%2c 196%2c 247%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -181.45376962426064%2c6.5 C -10.65%2c264.5 330.95%2c1297.1 672.5462303757394%2c1296.5 C 1014.15%2c1295.9 1184.95%2c9.5 1526.5462303757395%2c3.5 C 1868.15%2c-2.5 2038.95%2c1125.1 2380.5462303757395%2c1266.5 C 2722.15%2c1407.9 3198.66%2c817.7 3234.5462303757395%2c710.5 C 3270.44%2c603.3 2694.91%2c726.5 2560%2c730.5' stroke='rgba(249%2c 196%2c 247%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -638.3363067456282%2c835.5 C -467.54%2c706.7 -125.94%2c91.5 215.6636932543717%2c191.5 C 557.26%2c291.5 728.06%2c1284.3 1069.6636932543718%2c1335.5 C 1411.26%2c1386.7 1582.06%2c562.9 1923.6636932543718%2c447.5 C 2265.26%2c332.1 2650.4%2c737.1 2777.6636932543715%2c758.5 C 2904.93%2c779.9 2603.53%2c595.3 2560%2c554.5' stroke='rgba(210%2c 121%2c 217%2c 0.8)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -560.3039542226567%2c1208.5 C -389.5%2c1084.5 -47.9%2c592.1 293.69604577734333%2c588.5 C 635.3%2c584.9 806.1%2c1271.3 1147.6960457773434%2c1190.5 C 1489.3%2c1109.7 1660.1%2c203.7 2001.6960457773434%2c184.5 C 2343.3%2c165.3 2744.04%2c996.1 2855.6960457773434%2c1094.5 C 2967.36%2c1192.9 2619.14%2c760.1 2560%2c676.5' stroke='rgba(249%2c 196%2c 247%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -21.394187958907878%2c1089.5 C 149.41%2c903.1 491.01%2c116.1 832.6058120410921%2c157.5 C 1174.21%2c198.9 1345.01%2c1205.1 1686.6058120410921%2c1296.5 C 2028.21%2c1387.9 2199.01%2c584.5 2540.605812041092%2c614.5 C 2882.21%2c644.5 3390.73%2c1534.3 3394.605812041092%2c1446.5 C 3398.48%2c1358.7 2726.92%2c429.7 2560%2c175.5' stroke='rgba(249%2c 196%2c 247%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1735'%3e%3crect width='2560' height='1449' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    filter: drop-shadow(-1px 6px 3px rgba(38, 23, 38, 0.5));
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+h1 {
+    font-family: 'Faster One', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 70px;
+    color: #D279D9;
+    text-shadow: 1px 2px 1px #261726;
+}
+.container {
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin: 100px auto;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    transition: 1.6s;
+    margin: 10px;
+    border: 2px solid #F9C4F7;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    height: 60px;
+}
+.left {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.right {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    position: absolute;
+    left: 20%;
+    top: 0;
+}
+li {
+    background-color: #D279D9;
+    text-shadow: 1px 2px 1px #261726;
+    width: 100%;
+    height: 6px;
+    transition: 1.2s;
+    border-radius: 50%;
+}
+.left li {
+    position: relative;
+    left: -205px;
+}
+.right li {
+    position: relative;
+    left: 205px;
+}
+.button:hover li {
+    left: 0;
+    border-radius: 0;
+    transition: 1.2s cubic-bezier(0,2,.2,-1);
+    text-shadow: 1px 2px 1px #261726;
+}
+/* ------ Wave Effect ------ */
+.button li:nth-child(2){
+    transition-delay: .05s;
+}
+.button li:nth-child(3){
+    transition-delay: .1s;
+}
+.button li:nth-child(4){
+    transition-delay: .15s;
+}
+.button li:nth-child(5){
+    transition-delay: .2s;
+}
+.button li:nth-child(6){
+    transition-delay: .25s;
+}
+.button li:nth-child(7){
+    transition-delay: .3s;
+}
+.button li:nth-child(8){
+    transition-delay: .35s;
+}
+.button li:nth-child(9){
+    transition-delay: .4s;
+}
+.button li:nth-child(10){
+    transition-delay: .45s;
+}
+/* ------ Transition Effect ------ */
+
+.button p {
+    position: relative;
+    z-index: 10;
+    font-family: 'Goldman', cursive;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+.button:hover {
+    color: white;
+    text-shadow: 1px 2px 1px #261726;
+    transition: 1.6s cubic-bezier(0,2,.5,-0.3);
+}
